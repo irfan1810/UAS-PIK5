@@ -5,11 +5,11 @@ Website Resmi Desa Konohagakure
 *Catatan kemajuan pribadi
 
 Kelengkapan yang sudah dikerjakan :
-1. Halaman Home dengan vidio embed dari youtube dan sejarah singkat konoha (2 Hari)
-2. Halaman Profil desa konoha (1 Hari)
-3. Halaman daftar nama dan profil hokage (1 Hari)
-4. Halaman Pengaduan/laporan (1 Hari)
-5. Bar medsos (2 Hari)
+1. Halaman Home dengan vidio embed dari youtube dan sejarah singkat konoha 
+2. Halaman Profil desa konoha 
+3. Halaman daftar nama dan profil hokage
+4. Halaman Pengaduan/laporan 
+5. Bar medsos 
 
 Properti yang dipakai :
 1. Menggunakan beberapa font dari google font dengan tag link ke server google 
@@ -17,6 +17,9 @@ Properti yang dipakai :
 
 Responsive :
 (x) belum terlalu responsive, masih ada beberapa halaman/bagian yang ukurannya belum sesuai harapan
+
+Durasi Pengerjaan selama ini :
+3 Hari+
 
 Tambahan buat kedepannya :
 1. Tambah beberapa halaman informasi desa dan daftar Ninja yang aktif
