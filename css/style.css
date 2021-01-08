@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 5px 0;
+    background-color: #eb4034;
+}
+
+.medsos:hover {
+    transition-duration: 2s;
+    background-color: aqua;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 12px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 0;
+    
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+header ul li a:hover {
+    transition-duration: 700ms;
+    background-color: #eb4034;
+    color: white;
+}
+
+.active {
+    background-color: #eb4034;
+    color: white;
+}
+
+.text {
+    background-color: #666;
+}
+
+marquee {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px 0;
+    transition-duration: 500ms;
+}
+
+marquee:hover {
+    background-color: aqua;
+    color: #333;
+}
+
+.banner {
+    height: 60vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner2 {
+    height: 20vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 25px;
+    border: 3px solid white;
+    font-family:  'Yeon Sung', cursive;
+}
+
+.banner2 h2 {
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 25px;
+    font-size: 40px;
+    text-decoration: overline underline;
+}
+
+section {
+    padding: 50px 0;
+}
+section h3, div h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    color: #eb4034;
+    margin-bottom: 30px;
+}
+
+.tentang p, .profil p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.list {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vidio {
+    display: block;
+    margin: 2cm auto;
+    width: 1000px; 
+    height: 500px;
+}
+
+.reset {
+    background-color: #eb4034;
+    border: none;
+}
+
+.biodata {
+    padding-top: 0.8cm;
+}
+
+.biodata ul li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.body {
+    background-color: rgb(214, 209, 209);
+}
+
+@media screen and (max-width:720px){
+
+    header ul li a {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .container {
+        width: 90%;
+        margin:0 28px;
+    }
+
+    header h1 {
+        margin-left: 120px;
+        padding-top: 5px;
+        padding-bottom: 0; 
+    }
+
+    .btn {
+        width: 4cm;
+        margin: 5px 2px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .vidio {
+        width: 420px; 
+        height: 300px;
+    }
+  
+}
