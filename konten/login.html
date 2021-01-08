@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konohagakure no Sato</title>
+    <link rel="icon" href="../logo.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+
+    <style>
+        .bgn {
+            background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+            border: 1px solid;
+        }
+
+        label {
+            font-family: "Raleway", sans-serif;
+            font-size: 11pt;
+        }
+
+        #kotak {
+            background: #fbfbfb;
+            border-radius: 8px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+            height: 410px;
+            margin: 3cm auto 4cm auto;
+            width: 330px;
+        }
+
+        #card-content {
+            padding: 12px 44px;
+        }
+
+        #card-title {
+            font-family: "Raleway Thin", sans-serif;
+            letter-spacing: 4px;
+            padding-bottom: 23px;
+            padding-top: 13px;
+            text-align: center;
+        }
+
+        #tombol {
+            background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+            border: none;
+            border-radius: 21px;
+            color: white;
+            font-family: "Raleway SemiBold", sans-serif;
+            height: 43px;
+            margin: 0 auto;
+            margin-top: 50px;
+            transition: 0.25s;
+            width: 153px;
+            cursor: pointer;
+        }
+
+        #tombol:hover {
+            box-shadow: 0px 1px 18px #24c64f;
+        }
+
+        .form {
+            align-items: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .garis-kotak {
+            background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+            height: 1px;
+            width: 100%;
+        }
+
+        .form-content {
+            background: #fbfbfb;
+            border: none;
+            outline: none;
+            padding-top: 14px;
+        }
+
+        .garis {
+            background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+            height: 2px;
+            margin: 8px auto 6px auto;
+            width: 150px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="mailto:irfan.akbarihabibi@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <h1><a href=""><img style="height: 45px;" src="../img/lg.png" alt=""></a></h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="profil.html">Profil Desa</a></li>
+                <li><a href="hokage.html">Hokage</a></li>
+                <li><a href="contact.html">Hubungi Kami</a></li>
+                <li class="active"><a href="login.html"><i class="fas fa-user-lock"></i> Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="text">
+        <marquee behavior="" direction="left">Sasuke akan segera kembali ke desa setelah lama meninggalkan desa dan
+            diperkirakan akan sampai dalam 2 minggu bersama dengan rombongan dari Desa Sunagakure, Konoha akan menjadi
+            tuan rumah dalam pertemuan 5 kage yang akan di adakan selama seminggu</marquee>
+    </div>
+    <div class="bgn">
+        <div id="kotak">
+            <div id="card-content">
+                <div id="card-title">
+                    <h2>LOGIN SINK</h2>
+                    <div class="garis"></div>
+                </div>
+                <form method="post" class="form">
+                    <label for="user-email" style="padding-top:13px">
+                        &nbsp;Email
+                    </label>
+                    <input id="user-email" class="form-content" type="email" name="email" required />
+                    <div class="garis-kotak"></div>
+                    <label for="user-password" style="padding-top:22px">&nbsp;Password
+                    </label>
+                    <input id="user-password" class="form-content" type="password" name="password" required />
+                    <div class="garis-kotak"></div>
+                    <input id="tombol" type="submit" name="submit" value="LOGIN" /> <br> <br>
+                    <small style="text-align: center;">2021 &copy; Sistem Informasi Ninja Konoha </small>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2021 Irfan. All Right Reserved</small>
+        </div>
+    </footer>
+</body>
+
+</html>

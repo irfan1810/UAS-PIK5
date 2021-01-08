@@ -37,11 +37,17 @@
         .submit {
             background-color: rgb(117, 219, 117);
             border: none;
+            transition: 0.25s;
         }
 
-        .submit:hover,
+        .submit:hover {
+            box-shadow: 0px 1px 25px rgb(117, 219, 117);
+            cursor: pointer;
+        }
+
         .reset:hover {
-            background-color: aqua;
+            box-shadow: 0px 1px 25px red;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -67,8 +73,9 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="profil.html">Profil Desa</a></li>
-                <li><a href="hokage.html">Daftar Hokage</a></li>
+                <li><a href="hokage.html">Hokage</a></li>
                 <li class="active"><a href="contact.html">Hubungi Kami</a></li>
+                <li><a href="login.html"><i class="fas fa-user-lock"></i> Login</a></li>
             </ul>
         </div>
     </header>
