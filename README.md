@@ -9,6 +9,7 @@ Kelengkapan yang sudah dikerjakan :
 2. Halaman Profil desa konoha
 3. Halaman daftar nama dan profil hokage
 4. Halaman Pengaduan/laporan 
+5. Bar medsos
 
 Properti yang dipakai :
 1. Menggunakan beberapa font dari google font dengan tag link ke server google 
