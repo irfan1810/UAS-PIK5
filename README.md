@@ -5,8 +5,8 @@ Website Resmi Desa Konohagakure
 *Catatan kemajuan pribadi
 
 Kelengkapan yang sudah dikerjakan :
-1. Halaman Home dengan vidio embed dari youtube dan sejarah singkat
-2. Halaman Profil 
+1. Halaman Home dengan vidio embed dari youtube dan sejarah singkat konoha
+2. Halaman Profil desa konoha
 3. Halaman daftar nama dan profil hokage
 4. Halaman Pengaduan/laporan 
 
