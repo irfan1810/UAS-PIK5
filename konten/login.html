@@ -15,19 +15,18 @@
 
     <style>
         .bgn {
-            background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+            background: -webkit-linear-gradient(bottom, #eb4034, #e67e76);
             border: 1px solid;
         }
 
         label {
-            font-family: "Raleway", sans-serif;
+            font-family: 'Yeon Sung', cursive;
             font-size: 11pt;
         }
 
         #kotak {
             background: #fbfbfb;
             border-radius: 8px;
-            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
             height: 410px;
             margin: 3cm auto 4cm auto;
             width: 330px;
@@ -35,6 +34,10 @@
 
         #card-content {
             padding: 12px 44px;
+        }
+
+        ::placeholder {
+            text-align: center;
         }
 
         #card-title {
@@ -46,11 +49,10 @@
         }
 
         #tombol {
-            background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+            background: -webkit-linear-gradient(right, #e00f0f, #f58a8a);
             border: none;
             border-radius: 21px;
             color: white;
-            font-family: "Raleway SemiBold", sans-serif;
             height: 43px;
             margin: 0 auto;
             margin-top: 50px;
@@ -60,7 +62,7 @@
         }
 
         #tombol:hover {
-            box-shadow: 0px 1px 18px #24c64f;
+            box-shadow: 0px 1px 18px #e00f0f;
         }
 
         .form {
@@ -70,7 +72,7 @@
         }
 
         .garis-kotak {
-            background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+            background: -webkit-linear-gradient(right, #c73838, #f58a8a);
             height: 1px;
             width: 100%;
         }
@@ -83,7 +85,7 @@
         }
 
         .garis {
-            background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+            background: -webkit-linear-gradient(right, #c73838, #f58a8a);
             height: 2px;
             margin: 8px auto 6px auto;
             width: 150px;
@@ -109,7 +111,7 @@
         <div class="container">
             <h1><a href=""><img style="height: 45px;" src="../img/lg.png" alt=""></a></h1>
             <ul>
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="profil.html">Profil Desa</a></li>
                 <li><a href="hokage.html">Hokage</a></li>
                 <li><a href="contact.html">Hubungi Kami</a></li>
@@ -119,9 +121,9 @@
     </header>
 
     <div class="text">
-        <marquee behavior="" direction="left">Sasuke akan segera kembali ke desa setelah lama meninggalkan desa dan
-            diperkirakan akan sampai dalam 2 minggu bersama dengan rombongan dari Desa Sunagakure, Konoha akan menjadi
-            tuan rumah dalam pertemuan 5 kage yang akan di adakan selama seminggu</marquee>
+        <marquee behavior="" direction="left">Sistem Informasi Ninja Konoha (SINK) Merupakan aplikasi berbasis website
+            yang dibuat untuk para ninja desa konoha supaya mempermudah dalam me-manajemen misi dan tugas desa, serta
+            melihat status pencapaian misi ninja dan misi khusus</marquee>
     </div>
     <div class="bgn">
         <div id="kotak">
@@ -131,14 +133,16 @@
                     <div class="garis"></div>
                 </div>
                 <form method="post" class="form">
-                    <label for="user-email" style="padding-top:13px">
-                        &nbsp;Email
+                    <label for="id-ninja" style="padding-top:13px">
+                        ID Ninja
                     </label>
-                    <input id="user-email" class="form-content" type="email" name="email" required />
+                    <input id="id-ninja" class="form-content" type="idninja" name="idninja"
+                        placeholder="Masukkan ID Ninja" required />
                     <div class="garis-kotak"></div>
-                    <label for="user-password" style="padding-top:22px">&nbsp;Password
+                    <label for="password" style="padding-top:22px">Password
                     </label>
-                    <input id="user-password" class="form-content" type="password" name="password" required />
+                    <input id="password" class="form-content" type="password" name="password"
+                        placeholder="Password Anda" required />
                     <div class="garis-kotak"></div>
                     <input id="tombol" type="submit" name="submit" value="LOGIN" /> <br> <br>
                     <small style="text-align: center;">2021 &copy; Sistem Informasi Ninja Konoha </small>
@@ -148,7 +152,7 @@
     </div>
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2021 Irfan. All Right Reserved</small>
+            <small>Copyright &copy; 2021 Irfan Akbari. All Right Reserved</small>
         </div>
     </footer>
 </body>

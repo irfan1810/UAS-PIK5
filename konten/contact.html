@@ -15,32 +15,51 @@
     <style>
         .aduan {
             width: 80%;
-            align-content: center;
-            margin: 30px 40px;
+            border-radius: 8px;
+            margin: 30px auto;
+            background: #ec564b;
+        }
+
+        .bck {
+            background-image: url(../img/akademi.png);
+            background-size: cover;
+            display: flex;
+        }
+
+        form label {
+            padding-top: 20px;
+            font-family: 'Yeon Sung', cursive;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            margin: 20px auto;
+            width: 70%;
+            flex-direction: column;
         }
 
         form input,
         form textarea {
-            width: 100%;
+            width: auto;
             padding: 8px 10px;
             border: 2px solid red;
+            border-radius: 8px;
         }
 
         .btn {
-            width: 6cm;
-            padding: 5px 10px;
-            margin: 5px 10px;
+            width: 8cm;
+            padding: 8px 10px;
+            border-radius: 10px;
+            margin: 20px auto;
             color: white;
             font-size: 20px;
-        }
-
-        .submit {
             background-color: rgb(117, 219, 117);
             border: none;
             transition: 0.25s;
         }
 
-        .submit:hover {
+        .btn:hover {
             box-shadow: 0px 1px 25px rgb(117, 219, 117);
             cursor: pointer;
         }
@@ -71,7 +90,7 @@
         <div class="container">
             <h1><a href=""><img style="height: 45px;" src="../img/lg.png" alt=""></a></h1>
             <ul>
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="profil.html">Profil Desa</a></li>
                 <li><a href="hokage.html">Hokage</a></li>
                 <li class="active"><a href="contact.html">Hubungi Kami</a></li>
@@ -89,27 +108,27 @@
     <section class="banner2">
         <h2>Pengaduan Desa</h2>
     </section>
-
-    <div class="aduan">
-        <form action="../index.html" method="post">
-            <label for="name">Nama Lengkap :</label>
-            <input type="text" name="name" id="name" placeholder="Input Nama" required> <br> <br>
-            <label for="name">Email :</label>
-            <input type="email" name="name" id="name" placeholder="Input Email" required> <br> <br>
-            <label for="name">Klan :</label>
-            <input type="text" name="name" id="name" placeholder="Input Klan" required> <br> <br>
-            <label for="masalah">Masalah :</label> <br>
-            <textarea name="masalah" id="masalah" rows="8" placeholder="Masalah Anda" required></textarea> <br> <br>
-            <label for="masalah">File :</label> <br>
-            <input style="border: none;" type="file" name="file" id="file"> <br> <br>
-            <button class="btn submit" type="submit"><i class="fas fa-paper-plane"></i> Kirim Data</button>
-            <button class="btn reset" type="reset"><i class="fas fa-trash-alt"></i> Reset Data</button>
-        </form>
+    <div class="bck">
+        <div class="aduan">
+            <form action="../index.html" method="post">
+                <label for="name">Nama Lengkap :</label>
+                <input type="text" name="name" id="name" placeholder="Input Nama" required> <br> <br>
+                <label for="name">Email :</label>
+                <input type="email" name="name" id="name" placeholder="Input Email" required> <br> <br>
+                <label for="name">Klan :</label>
+                <input type="text" name="name" id="name" placeholder="Input Klan" required> <br> <br>
+                <label for="masalah">Masalah :</label> <br>
+                <textarea name="masalah" id="masalah" rows="8" placeholder="Masalah Anda" required></textarea> <br> <br>
+                <label for="masalah">File :</label> <br>
+                <input style="border: none;" type="file" name="file" id="file"> <br> <br>
+                <button class="btn submit" type="submit"><i class="fas fa-paper-plane"></i> Kirim Data</button>
+            </form>
+        </div>
     </div>
     <!--INI TAG FOOTER-->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2021 Irfan. All Right Reserved</small>
+            <small>Copyright &copy; 2021 Irfan Akbari. All Right Reserved</small>
         </div>
     </footer>
 </body>
