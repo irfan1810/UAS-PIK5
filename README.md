@@ -12,17 +12,18 @@ Kelengkapan yang sudah dikerjakan :
 5. Bar medsos 
 6. Tampilan Halaman Login Sistem Informasi Ninja Konoha (SINK) 
 
-Properti yang dipakai :
-1. Menggunakan beberapa font dari google font dengan tag link ke server google 
-2. Menggunakan beberapa logo dari fontawesome dengan tag link/cdn ke server fontawesome
+Properti eksternal yang dipakai :
+1. Google Font
+2. Font Awesome
+3. Youtube 
 
-Responsive :
-(x) belum terlalu responsive, masih ada beberapa halaman/bagian yang ukurannya belum sesuai harapan
+Kekurangan :
+1. belum responsive, masih ada beberapa halaman/bagian yang ukurannya belum sesuai layar
 
-Durasi Pengerjaan selama ini :
+Durasi Pengerjaan :
 3 Hari+
 
-Tambahan buat kedepannya :
+Rencana buat kedepannya :
 1. Tambah beberapa halaman informasi desa dan daftar Ninja yang aktif
 2. Lebih responsive buat desktop dan mobile
 3. Mungkin kalo uda belajar PHP baru ku tambah pakai PHP biar form ya bisa di isi dan tersimpan
