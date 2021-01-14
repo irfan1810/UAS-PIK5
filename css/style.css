@@ -30,12 +30,6 @@ a{
     margin: 0 auto;
 }
 
-.container:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 header h1 {
     float: left;
     padding-top: 5px;
@@ -67,20 +61,17 @@ header ul li a:hover {
     color: white;
 }
 
-.text {
-    background-color: #666;
-}
-
 marquee {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     padding: 4px 0;
-    transition-duration: 500ms;
+    color: grey;
 }
 
 marquee:hover {
-    background-color: aqua;
-    color: #333;
+    transition-duration: 500ms;
+    background-color: #eb4034;
+    color: white;
 }
 
 .banner {
@@ -192,7 +183,7 @@ label {
     }
 
     header h1 {
-        margin-left: 120px;
+        margin-left: 150px;
         padding-top: 5px;
         padding-bottom: 0; 
     }
